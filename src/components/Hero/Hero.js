@@ -15,7 +15,7 @@ const Hero = (props) => (
       <SectionText>
         You're doing great! :)
       </SectionText>
-      <Button onClick={() => window.location = '/'}> Explore! </Button>
+      {/* <Button onClick={() => window.location = '/'}> Explore! </Button> */}
     </LeftSection>
   </Section>
 );

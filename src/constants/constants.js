@@ -4,7 +4,7 @@ export const projects = [
     description: "What does the project do\? This project will write a mathematical expression written from the keyboard like a mathematical expression written on paper.",
       image: '/images/01.png',
       tags: ['C/C++'],
-    source: 'hhttps://github.com/AndromedaOMA/mathematical_expression_editor',
+    source: 'https://github.com/AndromedaOMA/mathematical_expression_editor',
     visit: 'https://google.com',
     id: 0,
   },
@@ -20,9 +20,12 @@ export const projects = [
 ];
 
 export const TimeLineData = [
-  { year: 2017, text: 'Started my journey', },
-  { year: 2018, text: 'Worked as a freelance developer', },
-  { year: 2019, text: 'Founded JavaScript Mastery', },
-  { year: 2020, text: 'Shared my projects with the world', },
-  { year: 2021, text: 'Started my own platform', },
+  { year: 2016, text: 'Started my journey in the field of robotics', },
+  { year: 2017, text: 'I earn my first BRONZE Medal at InfoMatrix international competition', },
+  { year: 2018, text: 'I earn my first SILVER Medal at InfoMatrix international competition', },
+  { year: 2019, text: 'I earn my first GOLD Medal at RoboChallenge international competition', },
+  { year: 2020, text: '', },
+  { year: 2021, text: 'Started my journey in the field of IT', },
+  { year: 2022, text: '', },
+  { year: 2023, text: 'I learned the basics of working with web technologies and created this portfolio', },
 ];
