@@ -3,5 +3,6 @@
 
 ---
 
-<h3 align=left> Setup: </h3>
-  -run `npm install && npm run dev`
+<h3 align="left">Setup:</h3>
+
+- run `npm install && npm run dev`.
