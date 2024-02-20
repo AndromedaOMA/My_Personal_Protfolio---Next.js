@@ -11,6 +11,6 @@
 <h3 align="left">Enjoy!</h3>
 
 ---
-
-<h5 align="center">⚠️The content of the portfolio may not be completely updated. For fresh information, access my personal CV.⚠️</h5>
-<h5 align="center">⚠️This project aims to highlight the above.⚠️</h5>
+> **Note!**
+The content of the portfolio may not be completely updated. For fresh information, access my personal CV.
+This project aims to highlight the above.
