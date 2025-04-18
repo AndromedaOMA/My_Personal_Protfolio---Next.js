@@ -19,7 +19,7 @@ export const Container = styled.div`
 `;
 
 export const Span = styled.span`
-  font-size: 2rem;
+  font-size: 3rem;
 `;
 
 export const Div1 = styled.div`
@@ -126,4 +126,25 @@ border-radius: 50px;
     cursor: pointer;
     
   }
-`
+`;
+
+export const navVariants = {
+  hidden: {
+    opacity: 0,
+    y: -50,
+    transition: {
+      type: 'spring',
+      stiffness: 300,
+      damping: 140,
+    },
+  },
+  show: {
+    opacity: 1,
+    y: 0,
+    transition: {
+      type: 'spring',
+      stiffness: 80,
+      delay: 1,
+    },
+  },
+};

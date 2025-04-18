@@ -2,16 +2,24 @@ import Link from 'next/link';
 import React from 'react';
 import { AiFillGithub, AiFillInstagram, AiFillLinkedin } from 'react-icons/ai';
 import { DiCssdeck } from 'react-icons/di';
+import styles from '../styles/index';
 
-import { Container, Div1, Div2, Div3, NavLink, SocialIcons, Span } from './HeaderStyles';
+import { Container, Div1, Div2, Div3, NavLink, SocialIcons, Span, navVariants } from './HeaderStyles';
 import { SocialContainer } from '../Footer/FooterStyles';
 
+
 const Header = () =>  (
-  <Container>
+  <Container
+    variants={navVariants}
+    initial="hidden"
+    whileInView="show"
+    className={`${styles.xPaddings} py-8 relative`}
+  >
+    <div className="absolute w[50%] inset-0 gradient-01" />
     <Div1>
       <Link href="/">
         <legacyBehavior style={{ display: "flex", alignItems: "center", color: 'white',  marginBottom: '20' }}>
-          {/* <DiCssdeck size="3rem" /> */}
+           {/* <DiCssdeck size="3rem" /> */}
           <Span>MyPortfolio</Span>
         </legacyBehavior>
       </Link>
@@ -36,13 +44,13 @@ const Header = () =>  (
     <Div3>
       <SocialContainer>
         <SocialIcons href="https://github.com/AndromedaOMA">
-          <AiFillGithub zise="3rem"/>
+          <AiFillGithub size="3rem"/>
         </SocialIcons>
         <SocialIcons href="https://www.linkedin.com/in/marius-alexandru-olaru-390599229/">
-          <AiFillLinkedin zise="3rem"/>
+          <AiFillLinkedin size="3rem"/>
         </SocialIcons>
         <SocialIcons href="https://www.instagram.com/marius._.23/">
-          <AiFillInstagram zise="3rem"/>
+          <AiFillInstagram size="3rem"/>
         </SocialIcons>
       </SocialContainer>
     </Div3>

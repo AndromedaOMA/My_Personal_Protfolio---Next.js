@@ -7,19 +7,17 @@ import Timeline from '../components/TimeLine/TimeLine';
 import { Layout } from '../layout/Layout';
 import { Section } from '../styles/GlobalComponents';
 
-const Home = () => {
-  return (
-    <Layout>
-      {/* <Section grid> */}
+const Home = () => (
+    <Layout className="bg-primary-black overflow-hidden">
+      <Section grid>
         <Hero />
-        {/* <BgAnimation /> */}
-      {/* </Section> */}
+        {/* <BgAnimation />  */}
+      </Section>
       <Projects />
       <Technologies />
       <Timeline />
       <Acomplishments />
     </Layout>
-  );
-};
+);
 
 export default Home;

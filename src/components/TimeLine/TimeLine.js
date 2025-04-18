@@ -44,6 +44,7 @@ const Timeline = () => {
 
   return (
     <Section id="about">
+    <SectionDivider/>
       <SectionTitle>About Me</SectionTitle>
       <SectionText>&nbsp; I am open-minded, willing to learn as many new things as possible and to work with those around me. <br/>
                    &nbsp; Since 2016, I have participated in several international competitions, including FIRST Tech Challenge and RoboChallenge, where I developed my creativity and teamwork skills, which led to good places in the ranking.</SectionText>
