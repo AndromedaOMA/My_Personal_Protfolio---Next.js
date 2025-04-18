@@ -1,6 +1,6 @@
 export const projects = [
   {
-    title: 'mathematical expression editor',
+    title: 'Mathematical Expression Editor',
     description: "What does the project do\? This project will write a mathematical expression written from the keyboard like a mathematical expression written on paper.",
       image: '/images/01.png',
       tags: ['C/C++'],
@@ -9,7 +9,7 @@ export const projects = [
     id: 0,
   },
   {
-    title: 'mathematical expression editor',
+    title: 'Dice Game',
     description: "This project realizes the famous game of barbut. By pressing multiple times on the screen, the dice will be given various impulses, which will give the effect of throwing them.",
       image: '/images/02.png',
       tags: ['C#', 'Blender'],

@@ -19,7 +19,11 @@ const Header = () =>  (
     <Div1>
       <Link href="/">
         <legacyBehavior style={{ display: "flex", alignItems: "center", color: 'white',  marginBottom: '20' }}>
+<<<<<<< HEAD
            {/* <DiCssdeck size="3rem" /> */}
+=======
+          <DiCssdeck size="3rem" />
+>>>>>>> a809b22feeef00dcaf2b4007853ea0807fdf6ac4
           <Span>MyPortfolio</Span>
         </legacyBehavior>
       </Link>
